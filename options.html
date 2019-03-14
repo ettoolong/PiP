@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="options.css"/>
+    <script type="text/javascript" src="options.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <div style="display:inline-block;">
+        <label data-l10n-id="optionPageTitle">Picture-in-Picture Viewer Preferences:</label>
+
+        <div class="itemDiv">
+          <div id="toolbarAction" type="radioGroup">
+            <div class="col">
+              <label data-l10n-id="toolbarAction">Toolbar button action:</label>
+            </div>
+            <div class="col">
+              <div>
+                <input type="radio" id="dontSelectVideo" name="toolbarAction" value="0">
+                <label for="dontSelectVideo" data-l10n-id="dontSelectVideo">Manual selct video element</label>
+              </div>
+              <div>
+                <input type="radio" id="selectFirstVideo" name="toolbarAction" value="1">
+                <label for="selectFirstVideo" data-l10n-id="selectFirstVideo">Auto select first video element</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="itemDiv">
+            <div class="col">
+              <label data-l10n-id="ignoreTinyElement">Ignore tiny element:</label>
+            </div>
+            <div class="col">
+              <div>
+                <label for="minWidth" data-l10n-id="minWidth">Minimum width</label>
+                <input type="number" min="0" id="minWidth">
+              </div>
+              <div style="margin-top: 2px;">
+                <label for="minHeight" data-l10n-id="minHeight">Minimum height</label>
+                <input type="number" min="0" id="minHeight">
+              </div>
+            </div>
+        </div>
+
+        <div class="itemDiv">
+          <div id="iconColor" type="radioGroup">
+            <label data-l10n-id="iconColor">Toolbar button icon color</label>
+            <input type="radio" id="iconColorBlack" name="iconColor" value="0">
+            <label for="iconColorBlack" data-l10n-id="iconColorBlack">Black</label>
+            <input type="radio" id="iconColorWhite" name="iconColor" value="1">
+            <label for="iconColorWhite" data-l10n-id="iconColorWhite">White</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

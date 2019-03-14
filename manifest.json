@@ -1,0 +1,48 @@
+{
+  "description": "__MSG_extDescription__",
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "0.0.2",
+  "homepage_url": "https://github.com/ettoolong/PiP",
+  "icons": {
+    "16": "icon/icon_b.png",
+    "32": "icon/icon_b.png",
+    "48": "icon/icon_b.png"
+  },
+  "author": "Ett Chung",
+  "background": {
+    "scripts": ["script/background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*","file:///*"],
+      "js": ["script/content-script.js"],
+      "css": ["css/pip.css"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "__MSG_extDescription__",
+    "default_icon": "icon/icon_b.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "default_locale": "en",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "commands": {
+    "pictureInPicture": {
+      "suggested_key": {
+        "default": "Alt+Shift+F"
+      },
+      "description": "__MSG_extName__"
+    }
+  }
+}

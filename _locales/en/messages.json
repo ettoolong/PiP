@@ -1,0 +1,50 @@
+{
+	"extName": {
+		"message": "Picture-in-Picture Viewer",
+		"description": ""
+	},
+	"extDescription": {
+		"message": "Open HTML5 video in float video window.",
+		"description": ""
+	},
+	"optionPageTitle": {
+		"message": "Picture-in-Picture Viewer Preferences:",
+		"description": ""
+	},
+  "toolbarAction": {
+		"message": "Toolbar button action:",
+		"description": ""
+  },
+	"selectFirstVideo": {
+		"message": "Auto select first video element(If not found any video element in 3 seconds, auto cancel)",
+		"description": ""
+  },
+  "dontSelectVideo": {
+		"message": "Manual selct video element",
+		"description": ""
+  },
+  "ignoreTinyElement": {
+		"message": "Ignore tiny element:",
+		"description": ""
+	},
+	"minWidth": {
+		"message": "Minimum width",
+		"description": ""
+  },
+  "minHeight": {
+		"message": "Minimum height",
+		"description": ""
+  },
+	"iconColor": {
+		"message": "Toolbar button icon color",
+		"description": ""
+  },
+  "iconColorBlack": {
+		"message": "Black",
+		"description": ""
+  },
+  "iconColorWhite": {
+		"message": "White",
+		"description": ""
+  }
+}

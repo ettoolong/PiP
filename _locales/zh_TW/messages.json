@@ -1,0 +1,50 @@
+{
+  "extName": {
+    "message": "浮動播放窗",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "將 HTML5 影片在浮動視窗中播放。",
+    "description": ""
+  },
+  "optionPageTitle": {
+    "message": "浮動播放窗設定：",
+    "description": ""
+  },
+  "toolbarAction": {
+    "message": "於工具列啟動後：",
+    "description": ""
+  },
+  "selectFirstVideo": {
+    "message": "自動選擇頁面中第一個找到的影片(如果三秒內沒找到任何影片，將自動取消)",
+    "description": ""
+  },
+  "dontSelectVideo": {
+    "message": "手動選擇頁面中的影片",
+    "description": ""
+  },
+  "ignoreTinyElement": {
+    "message": "忽略小型元素：",
+    "description": ""
+  },
+  "minWidth": {
+    "message": "最小寬度",
+    "description": ""
+  },
+  "minHeight": {
+    "message": "最小高度",
+    "description": ""
+  },
+  "iconColor": {
+    "message": "工具列圖示顏色",
+    "description": ""
+  },
+  "iconColorBlack": {
+    "message": "黑",
+    "description": ""
+  },
+  "iconColorWhite": {
+    "message": "白",
+    "description": ""
+  }
+}
